@@ -1,0 +1,301 @@
+-,"Boolean retrieval",boolean-retrieval-1.html
+-,"The term vocabulary and postings lists",the-term-vocabulary-and-postings-lists-1.html
+-,"Dictionaries and tolerant retrieval",dictionaries-and-tolerant-retrieval-1.html
+-,"Index construction",index-construction-1.html
+-,"Index compression",index-compression-1.html
+-,"Scoring, term weighting and the vector space model",scoring-term-weighting-and-the-vector-space-model-1.html
+-,"Computing scores in a complete search system",computing-scores-in-a-complete-search-system-1.html
+-,"Evaluation in information retrieval",evaluation-in-information-retrieval-1.html
+-,"Relevance feedback and query expansion",relevance-feedback-and-query-expansion-1.html
+-,"XML retrieval",xml-retrieval-1.html
+-,"Probabilistic information retrieval",probabilistic-information-retrieval-1.html
+-,"Language models for information retrieval",language-models-for-information-retrieval-1.html
+-,"Text classification and Naive Bayes",text-classification-and-naive-bayes-1.html
+-,"Vector space classification",vector-space-classification-1.html
+-,"Support vector machines and machine learning on documents",support-vector-machines-and-machine-learning-on-documents-1.html
+-,"Flat clustering",flat-clustering-1.html
+-,"Hierarchical clustering",hierarchical-clustering-1.html
+-,"Matrix decompositions and latent semantic indexing",matrix-decompositions-and-latent-semantic-indexing-1.html
+-,"Web search basics",web-search-basics-1.html
+-,"Web crawling and indexes",web-crawling-and-indexes-1.html
+-,"Link analysis",link-analysis-1.html
+-,Contents,contents-1.html
+-,"List of Tables",list-of-tables-1.html
+-,"List of Figures",list-of-figures-1.html
+-,"Table of Notations",table-of-notations-1.html
+-,Preface,preface-1.html
+preface-1.html,"Book organization and course development",book-organization-and-course-development-1.html
+preface-1.html,Prerequisites,prerequisites-1.html
+preface-1.html,"Book layout",book-layout-1.html
+preface-1.html,Acknowledgments,acknowledgments-1.html
+preface-1.html,"Web and contact information",web-and-contact-information-1.html
+-,"Boolean retrieval",boolean-retrieval-1.html
+boolean-retrieval-1.html,"An example information retrieval problem",an-example-information-retrieval-problem-1.html
+boolean-retrieval-1.html,"A first take at building an inverted index",a-first-take-at-building-an-inverted-index-1.html
+boolean-retrieval-1.html,"Processing Boolean queries",processing-boolean-queries-1.html
+boolean-retrieval-1.html,"The extended Boolean model versus ranked retrieval",the-extended-boolean-model-versus-ranked-retrieval-1.html
+boolean-retrieval-1.html,"References and further reading",references-and-further-reading-1.html
+-,"The term vocabulary and postings lists",the-term-vocabulary-and-postings-lists-1.html
+-,"Document delineation and character sequence
+  decoding",document-delineation-and-character-sequence-decoding-1.html
+document-delineation-and-character-sequence-decoding-1.html,"Obtaining the character sequence in a document",obtaining-the-character-sequence-in-a-document-1.html
+document-delineation-and-character-sequence-decoding-1.html,"Choosing a document unit",choosing-a-document-unit-1.html
+-,"Determining the vocabulary of terms",determining-the-vocabulary-of-terms-1.html
+determining-the-vocabulary-of-terms-1.html,Tokenization,tokenization-1.html
+determining-the-vocabulary-of-terms-1.html,"Dropping common terms: stop words",dropping-common-terms-stop-words-1.html
+determining-the-vocabulary-of-terms-1.html,"Normalization (equivalence classing of terms)",normalization-equivalence-classing-of-terms-1.html
+determining-the-vocabulary-of-terms-1.html,"Stemming and lemmatization",stemming-and-lemmatization-1.html
+determining-the-vocabulary-of-terms-1.html,"Faster postings list intersection via skip pointers",faster-postings-list-intersection-via-skip-pointers-1.html
+-,"Positional postings and phrase queries",positional-postings-and-phrase-queries-1.html
+positional-postings-and-phrase-queries-1.html,"Biword indexes",biword-indexes-1.html
+positional-postings-and-phrase-queries-1.html,"Positional indexes",positional-indexes-1.html
+positional-postings-and-phrase-queries-1.html,"Combination schemes",combination-schemes-1.html
+positional-postings-and-phrase-queries-1.html,"References and further reading",references-and-further-reading-2.html
+-,"Dictionaries and tolerant retrieval",dictionaries-and-tolerant-retrieval-1.html
+dictionaries-and-tolerant-retrieval-1.html,"Search structures for dictionaries",search-structures-for-dictionaries-1.html
+-,"Wildcard queries",wildcard-queries-1.html
+-,"General wildcard queries",general-wildcard-queries-1.html
+general-wildcard-queries-1.html,"Permuterm indexes",permuterm-indexes-1.html
+general-wildcard-queries-1.html,"k-gram indexes for wildcard queries",k-gram-indexes-for-wildcard-queries-1.html
+-,"Spelling correction",spelling-correction-1.html
+spelling-correction-1.html,"Implementing spelling correction",implementing-spelling-correction-1.html
+spelling-correction-1.html,"Forms of spelling correction",forms-of-spelling-correction-1.html
+spelling-correction-1.html,"Edit distance",edit-distance-1.html
+spelling-correction-1.html,"k-gram indexes for spelling correction",k-gram-indexes-for-spelling-correction-1.html
+spelling-correction-1.html,"Context sensitive spelling correction",context-sensitive-spelling-correction-1.html
+spelling-correction-1.html,"Phonetic correction",phonetic-correction-1.html
+spelling-correction-1.html,"References and further reading",references-and-further-reading-3.html
+-,"Index construction",index-construction-1.html
+index-construction-1.html,"Hardware basics",hardware-basics-1.html
+index-construction-1.html,"Blocked sort-based indexing",blocked-sort-based-indexing-1.html
+index-construction-1.html,"Single-pass in-memory indexing",single-pass-in-memory-indexing-1.html
+index-construction-1.html,"Distributed indexing",distributed-indexing-1.html
+index-construction-1.html,"Dynamic indexing",dynamic-indexing-1.html
+index-construction-1.html,"Other types of indexes",other-types-of-indexes-1.html
+index-construction-1.html,"References and further reading",references-and-further-reading-4.html
+-,"Index compression",index-compression-1.html
+-,"Statistical properties of terms in information retrieval",statistical-properties-of-terms-in-information-retrieval-1.html
+statistical-properties-of-terms-in-information-retrieval-1.html,"Heaps' law: Estimating the number of terms",heaps-law-estimating-the-number-of-terms-1.html
+statistical-properties-of-terms-in-information-retrieval-1.html,"Zipf's law: Modeling the distribution of terms",zipfs-law-modeling-the-distribution-of-terms-1.html
+-,"Dictionary compression",dictionary-compression-1.html
+dictionary-compression-1.html,"Dictionary as a string",dictionary-as-a-string-1.html
+dictionary-compression-1.html,"Blocked storage",blocked-storage-1.html
+-,"Postings file compression",postings-file-compression-1.html
+postings-file-compression-1.html,"Variable byte codes",variable-byte-codes-1.html
+postings-file-compression-1.html,"Gamma codes",gamma-codes-1.html
+postings-file-compression-1.html,"References and further reading",references-and-further-reading-5.html
+-,"Scoring, term weighting and the vector space model",scoring-term-weighting-and-the-vector-space-model-1.html
+-,"Parametric and zone indexes",parametric-and-zone-indexes-1.html
+parametric-and-zone-indexes-1.html,"Weighted zone scoring",weighted-zone-scoring-1.html
+parametric-and-zone-indexes-1.html,"Learning weights",learning-weights-1.html
+parametric-and-zone-indexes-1.html,"The optimal weight g",the-optimal-weight-g-1.html
+-,"Term frequency and weighting",term-frequency-and-weighting-1.html
+term-frequency-and-weighting-1.html,"Inverse document frequency",inverse-document-frequency-1.html
+term-frequency-and-weighting-1.html,"Tf-idf weighting",tf-idf-weighting-1.html
+-,"The vector space model for scoring",the-vector-space-model-for-scoring-1.html
+the-vector-space-model-for-scoring-1.html,"Dot products",dot-products-1.html
+the-vector-space-model-for-scoring-1.html,"Queries as vectors",queries-as-vectors-1.html
+the-vector-space-model-for-scoring-1.html,"Computing vector scores",computing-vector-scores-1.html
+-,"Variant tf-idf functions",variant-tf-idf-functions-1.html
+variant-tf-idf-functions-1.html,"Sublinear tf scaling",sublinear-tf-scaling-1.html
+variant-tf-idf-functions-1.html,"Maximum tf normalization",maximum-tf-normalization-1.html
+variant-tf-idf-functions-1.html,"Document and query weighting schemes",document-and-query-weighting-schemes-1.html
+variant-tf-idf-functions-1.html,"Pivoted normalized document length",pivoted-normalized-document-length-1.html
+variant-tf-idf-functions-1.html,"References and further reading",references-and-further-reading-6.html
+-,"Computing scores in a complete search system",computing-scores-in-a-complete-search-system-1.html
+-,"Efficient scoring and ranking",efficient-scoring-and-ranking-1.html
+efficient-scoring-and-ranking-1.html,"Inexact top K document retrieval",inexact-top-k-document-retrieval-1.html
+efficient-scoring-and-ranking-1.html,"Index elimination",index-elimination-1.html
+efficient-scoring-and-ranking-1.html,"Champion lists",champion-lists-1.html
+efficient-scoring-and-ranking-1.html,"Static quality scores and ordering",static-quality-scores-and-ordering-1.html
+efficient-scoring-and-ranking-1.html,"Impact ordering",impact-ordering-1.html
+efficient-scoring-and-ranking-1.html,"Cluster pruning",cluster-pruning-1.html
+-,"Components of an information retrieval system",components-of-an-information-retrieval-system-1.html
+components-of-an-information-retrieval-system-1.html,"Tiered indexes",tiered-indexes-1.html
+components-of-an-information-retrieval-system-1.html,"Query-term proximity",query-term-proximity-1.html
+components-of-an-information-retrieval-system-1.html,"Designing parsing and scoring functions",designing-parsing-and-scoring-functions-1.html
+components-of-an-information-retrieval-system-1.html,"Putting it all together",putting-it-all-together-1.html
+-,"Vector space scoring and query operator interaction",vector-space-scoring-and-query-operator-interaction-1.html
+vector-space-scoring-and-query-operator-interaction-1.html,"Boolean retrieval",boolean-retrieval-2.html
+vector-space-scoring-and-query-operator-interaction-1.html,"Wildcard queries",wildcard-queries-2.html
+vector-space-scoring-and-query-operator-interaction-1.html,"Phrase queries",phrase-queries-1.html
+vector-space-scoring-and-query-operator-interaction-1.html,"References and further reading",references-and-further-reading-7.html
+-,"Evaluation in information retrieval",evaluation-in-information-retrieval-1.html
+evaluation-in-information-retrieval-1.html,"Information retrieval system evaluation",information-retrieval-system-evaluation-1.html
+evaluation-in-information-retrieval-1.html,"Standard test collections",standard-test-collections-1.html
+evaluation-in-information-retrieval-1.html,"Evaluation of unranked retrieval sets",evaluation-of-unranked-retrieval-sets-1.html
+evaluation-in-information-retrieval-1.html,"Evaluation of ranked retrieval results",evaluation-of-ranked-retrieval-results-1.html
+-,"Assessing relevance",assessing-relevance-1.html
+assessing-relevance-1.html,"Critiques and justifications of the concept of relevance",critiques-and-justifications-of-the-concept-of-relevance-1.html
+-,"A broader perspective: System quality and user
+  utility",a-broader-perspective-system-quality-and-user-utility-1.html
+a-broader-perspective-system-quality-and-user-utility-1.html,"System issues",system-issues-1.html
+a-broader-perspective-system-quality-and-user-utility-1.html,"User utility",user-utility-1.html
+a-broader-perspective-system-quality-and-user-utility-1.html,"Refining a deployed system",refining-a-deployed-system-1.html
+a-broader-perspective-system-quality-and-user-utility-1.html,"Results snippets",results-snippets-1.html
+a-broader-perspective-system-quality-and-user-utility-1.html,"References and further reading",references-and-further-reading-8.html
+-,"Relevance feedback and query expansion",relevance-feedback-and-query-expansion-1.html
+-,"Relevance feedback and pseudo relevance feedback",relevance-feedback-and-pseudo-relevance-feedback-1.html
+relevance-feedback-and-pseudo-relevance-feedback-1.html,"The Rocchio algorithm for relevance feedback",the-rocchio-algorithm-for-relevance-feedback-1.html
+relevance-feedback-and-pseudo-relevance-feedback-1.html,"Probabilistic relevance feedback",probabilistic-relevance-feedback-1.html
+relevance-feedback-and-pseudo-relevance-feedback-1.html,"When does relevance feedback work?",when-does-relevance-feedback-work-1.html
+relevance-feedback-and-pseudo-relevance-feedback-1.html,"Relevance feedback on the web",relevance-feedback-on-the-web-1.html
+relevance-feedback-and-pseudo-relevance-feedback-1.html,"Evaluation of relevance feedback strategies",evaluation-of-relevance-feedback-strategies-1.html
+relevance-feedback-and-pseudo-relevance-feedback-1.html,"Pseudo relevance feedback",pseudo-relevance-feedback-1.html
+relevance-feedback-and-pseudo-relevance-feedback-1.html,"Indirect relevance feedback",indirect-relevance-feedback-1.html
+relevance-feedback-and-pseudo-relevance-feedback-1.html,Summary,summary-1.html
+-,"Global methods for query reformulation",global-methods-for-query-reformulation-1.html
+global-methods-for-query-reformulation-1.html,"Vocabulary tools for query reformulation",vocabulary-tools-for-query-reformulation-1.html
+global-methods-for-query-reformulation-1.html,"Query expansion",query-expansion-1.html
+global-methods-for-query-reformulation-1.html,"Automatic thesaurus generation",automatic-thesaurus-generation-1.html
+global-methods-for-query-reformulation-1.html,"References and further reading",references-and-further-reading-9.html
+-,"XML retrieval",xml-retrieval-1.html
+xml-retrieval-1.html,"Basic XML concepts",basic-xml-concepts-1.html
+xml-retrieval-1.html,"Challenges in XML retrieval",challenges-in-xml-retrieval-1.html
+xml-retrieval-1.html,"A vector space model for XML retrieval",a-vector-space-model-for-xml-retrieval-1.html
+xml-retrieval-1.html,"Evaluation of XML retrieval",evaluation-of-xml-retrieval-1.html
+xml-retrieval-1.html,"Text-centric vs. data-centric XML retrieval",text-centric-vs-data-centric-xml-retrieval-1.html
+xml-retrieval-1.html,"References and further reading",references-and-further-reading-10.html
+xml-retrieval-1.html,Exercises,exercises-1.html
+-,"Probabilistic information retrieval",probabilistic-information-retrieval-1.html
+probabilistic-information-retrieval-1.html,"Review of basic probability theory",review-of-basic-probability-theory-1.html
+-,"The Probability Ranking Principle",the-probability-ranking-principle-1.html
+the-probability-ranking-principle-1.html,"The 1/0 loss case",the-10-loss-case-1.html
+the-probability-ranking-principle-1.html,"The PRP with retrieval costs",the-prp-with-retrieval-costs-1.html
+-,"The Binary Independence Model",the-binary-independence-model-1.html
+the-binary-independence-model-1.html,"Deriving a ranking function for query terms",deriving-a-ranking-function-for-query-terms-1.html
+the-binary-independence-model-1.html,"Probability estimates in theory",probability-estimates-in-theory-1.html
+the-binary-independence-model-1.html,"Probability estimates in practice",probability-estimates-in-practice-1.html
+the-binary-independence-model-1.html,"Probabilistic approaches to relevance feedback",probabilistic-approaches-to-relevance-feedback-1.html
+-,"An appraisal and some extensions",an-appraisal-and-some-extensions-1.html
+an-appraisal-and-some-extensions-1.html,"An appraisal of probabilistic models",an-appraisal-of-probabilistic-models-1.html
+an-appraisal-and-some-extensions-1.html,"Tree-structured dependencies between terms",tree-structured-dependencies-between-terms-1.html
+an-appraisal-and-some-extensions-1.html,"Okapi BM25: a non-binary model",okapi-bm25-a-non-binary-model-1.html
+an-appraisal-and-some-extensions-1.html,"Bayesian network approaches to IR",bayesian-network-approaches-to-ir-1.html
+an-appraisal-and-some-extensions-1.html,"References and further reading",references-and-further-reading-11.html
+-,"Language models for information retrieval",language-models-for-information-retrieval-1.html
+-,"Language models",language-models-1.html
+language-models-1.html,"Finite automata and language models",finite-automata-and-language-models-1.html
+language-models-1.html,"Types of language models",types-of-language-models-1.html
+language-models-1.html,"Multinomial distributions over words",multinomial-distributions-over-words-1.html
+-,"The query likelihood model",the-query-likelihood-model-1.html
+the-query-likelihood-model-1.html,"Using query likelihood language models in IR",using-query-likelihood-language-models-in-ir-1.html
+the-query-likelihood-model-1.html,"Estimating the query generation probability",estimating-the-query-generation-probability-1.html
+the-query-likelihood-model-1.html,"Ponte and Croft's Experiments",ponte-and-crofts-experiments-1.html
+the-query-likelihood-model-1.html,"Language modeling versus other approaches in IR",language-modeling-versus-other-approaches-in-ir-1.html
+the-query-likelihood-model-1.html,"Extended language modeling approaches",extended-language-modeling-approaches-1.html
+the-query-likelihood-model-1.html,"References and further reading",references-and-further-reading-12.html
+-,"Text classification and Naive Bayes",text-classification-and-naive-bayes-1.html
+text-classification-and-naive-bayes-1.html,"The text classification problem",the-text-classification-problem-1.html
+-,"Naive Bayes text classification",naive-bayes-text-classification-1.html
+naive-bayes-text-classification-1.html,"Relation to multinomial unigram language model",relation-to-multinomial-unigram-language-model-1.html
+naive-bayes-text-classification-1.html,"The Bernoulli model",the-bernoulli-model-1.html
+-,"Properties of Naive Bayes",properties-of-naive-bayes-1.html
+properties-of-naive-bayes-1.html,"A variant of the multinomial model",a-variant-of-the-multinomial-model-1.html
+-,"Feature selection",feature-selection-1.html
+feature-selection-1.html,"Mutual
+  information",mutual-information-1.html
+-," Feature selectionChi2 Feature selection",feature-selectionchi2-feature-selection-1.html
+feature-selectionchi2-feature-selection-1.html,"Assessing
+     as a feature selection
+    methodAssessing chi-square as a feature
+    selection method",assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1.html
+feature-selectionchi2-feature-selection-1.html,"Frequency-based feature
+  selection",frequency-based-feature-selection-1.html
+feature-selectionchi2-feature-selection-1.html,"Feature selection for multiple classifiers",feature-selection-for-multiple-classifiers-1.html
+feature-selectionchi2-feature-selection-1.html,"Comparison of feature selection methods",comparison-of-feature-selection-methods-1.html
+feature-selectionchi2-feature-selection-1.html,"Evaluation of text classification",evaluation-of-text-classification-1.html
+feature-selectionchi2-feature-selection-1.html,"References and further reading",references-and-further-reading-13.html
+-,"Vector space classification",vector-space-classification-1.html
+vector-space-classification-1.html,"Document representations and measures of
+  relatedness in vector spaces",document-representations-and-measures-of-relatedness-in-vector-spaces-1.html
+vector-space-classification-1.html,"Rocchio classification",rocchio-classification-1.html
+-,"k nearest neighbor",k-nearest-neighbor-1.html
+k-nearest-neighbor-1.html,"Time complexity and optimality of kNN",time-complexity-and-optimality-of-knn-1.html
+k-nearest-neighbor-1.html,"Linear versus nonlinear classifiers",linear-versus-nonlinear-classifiers-1.html
+k-nearest-neighbor-1.html,"Classification with more than two classes",classification-with-more-than-two-classes-1.html
+k-nearest-neighbor-1.html,"The bias-variance tradeoff",the-bias-variance-tradeoff-1.html
+k-nearest-neighbor-1.html,"References and further reading",references-and-further-reading-14.html
+k-nearest-neighbor-1.html,Exercises,exercises-2.html
+-,"Support vector machines and machine learning on documents",support-vector-machines-and-machine-learning-on-documents-1.html
+support-vector-machines-and-machine-learning-on-documents-1.html,"Support vector machines: The linearly separable case",support-vector-machines-the-linearly-separable-case-1.html
+-,"Extensions to the SVM model",extensions-to-the-svm-model-1.html
+extensions-to-the-svm-model-1.html,"Soft margin classification",soft-margin-classification-1.html
+extensions-to-the-svm-model-1.html,"Multiclass SVMs",multiclass-svms-1.html
+extensions-to-the-svm-model-1.html,"Nonlinear SVMs",nonlinear-svms-1.html
+extensions-to-the-svm-model-1.html,"Experimental results",experimental-results-1.html
+-,"Issues in the classification of text documents",issues-in-the-classification-of-text-documents-1.html
+issues-in-the-classification-of-text-documents-1.html,"Choosing what kind of classifier to use",choosing-what-kind-of-classifier-to-use-1.html
+-,"Improving classifier performance",improving-classifier-performance-1.html
+improving-classifier-performance-1.html,"Large and difficult category taxonomies",large-and-difficult-category-taxonomies-1.html
+improving-classifier-performance-1.html,"Features for text",features-for-text-1.html
+improving-classifier-performance-1.html,"Document zones in text classification",document-zones-in-text-classification-1.html
+-,"Machine learning methods in ad hoc information retrieval",machine-learning-methods-in-ad-hoc-information-retrieval-1.html
+machine-learning-methods-in-ad-hoc-information-retrieval-1.html,"A simple example of machine-learned scoring",a-simple-example-of-machine-learned-scoring-1.html
+machine-learning-methods-in-ad-hoc-information-retrieval-1.html,"Result ranking by machine learning",result-ranking-by-machine-learning-1.html
+machine-learning-methods-in-ad-hoc-information-retrieval-1.html,"References and further reading",references-and-further-reading-15.html
+-,"Flat clustering",flat-clustering-1.html
+flat-clustering-1.html,"Clustering in information retrieval",clustering-in-information-retrieval-1.html
+-,"Problem statement",problem-statement-1.html
+problem-statement-1.html,"Cardinality - the number of clusters",cardinality---the-number-of-clusters-1.html
+problem-statement-1.html,"Evaluation of clustering",evaluation-of-clustering-1.html
+-,K-means,k-means-1.html
+k-means-1.html,"Cluster cardinality in K-means",cluster-cardinality-in-k-means-1.html
+k-means-1.html,"Model-based clustering",model-based-clustering-1.html
+k-means-1.html,"References and further reading",references-and-further-reading-16.html
+k-means-1.html,Exercises,exercises-3.html
+-,"Hierarchical clustering",hierarchical-clustering-1.html
+hierarchical-clustering-1.html,"Hierarchical agglomerative clustering",hierarchical-agglomerative-clustering-1.html
+-,"Single-link and complete-link clustering",single-link-and-complete-link-clustering-1.html
+single-link-and-complete-link-clustering-1.html,"Time complexity of HAC",time-complexity-of-hac-1.html
+single-link-and-complete-link-clustering-1.html,"Group-average agglomerative clustering",group-average-agglomerative-clustering-1.html
+single-link-and-complete-link-clustering-1.html,"Centroid clustering",centroid-clustering-1.html
+single-link-and-complete-link-clustering-1.html,"Optimality of HAC",optimality-of-hac-1.html
+single-link-and-complete-link-clustering-1.html,"Divisive clustering",divisive-clustering-1.html
+single-link-and-complete-link-clustering-1.html,"Cluster labeling",cluster-labeling-1.html
+single-link-and-complete-link-clustering-1.html,"Implementation notes",implementation-notes-1.html
+single-link-and-complete-link-clustering-1.html,"References and further reading",references-and-further-reading-17.html
+single-link-and-complete-link-clustering-1.html,Exercises,exercises-4.html
+-,"Matrix decompositions and latent semantic indexing",matrix-decompositions-and-latent-semantic-indexing-1.html
+-,"Linear algebra review",linear-algebra-review-1.html
+linear-algebra-review-1.html,"Matrix decompositions",matrix-decompositions-1.html
+linear-algebra-review-1.html,"Term-document matrices and singular value decompositions",term-document-matrices-and-singular-value-decompositions-1.html
+linear-algebra-review-1.html,"Low-rank approximations",low-rank-approximations-1.html
+linear-algebra-review-1.html,"Latent semantic indexing",latent-semantic-indexing-1.html
+linear-algebra-review-1.html,"References and further reading",references-and-further-reading-18.html
+-,"Web search basics",web-search-basics-1.html
+web-search-basics-1.html,"Background and history",background-and-history-1.html
+-,"Web characteristics",web-characteristics-1.html
+web-characteristics-1.html,"The web graph",the-web-graph-1.html
+web-characteristics-1.html,Spam,spam-1.html
+web-characteristics-1.html,"Advertising as the economic model",advertising-as-the-economic-model-1.html
+-,"The search user experience",the-search-user-experience-1.html
+the-search-user-experience-1.html,"User query needs",user-query-needs-1.html
+the-search-user-experience-1.html,"Index size and estimation",index-size-and-estimation-1.html
+the-search-user-experience-1.html,"Near-duplicates and shingling",near-duplicates-and-shingling-1.html
+the-search-user-experience-1.html,"References and further reading",references-and-further-reading-19.html
+-,"Web crawling and indexes",web-crawling-and-indexes-1.html
+-,Overview,overview-1.html
+overview-1.html,"Features a crawler must provide",features-a-crawler-must-provide-1.html
+overview-1.html,"Features a crawler should provide",features-a-crawler-should-provide-1.html
+-,Crawling,crawling-1.html
+-,"Crawler architecture",crawler-architecture-1.html
+crawler-architecture-1.html,"Distributing the crawler",distributing-the-crawler-1.html
+crawler-architecture-1.html,"DNS resolution",dns-resolution-1.html
+crawler-architecture-1.html,"The URL frontier",the-url-frontier-1.html
+crawler-architecture-1.html,"Distributing indexes",distributing-indexes-1.html
+crawler-architecture-1.html,"Connectivity servers",connectivity-servers-1.html
+crawler-architecture-1.html,"References and further reading",references-and-further-reading-20.html
+-,"Link analysis",link-analysis-1.html
+-,"The Web as a graph",the-web-as-a-graph-1.html
+the-web-as-a-graph-1.html,"Anchor text and the web graph",anchor-text-and-the-web-graph-1.html
+-,PageRank,pagerank-1.html
+pagerank-1.html,"Markov chains",markov-chains-1.html
+pagerank-1.html,"The PageRank computation",the-pagerank-computation-1.html
+pagerank-1.html,"Topic-specific PageRank",topic-specific-pagerank-1.html
+-,"Hubs and Authorities",hubs-and-authorities-1.html
+hubs-and-authorities-1.html,"Choosing the subset of the Web",choosing-the-subset-of-the-web-1.html
+hubs-and-authorities-1.html,"References and further reading",references-and-further-reading-21.html
+hubs-and-authorities-1.html,Bibliography,bibliography-1.html
+hubs-and-authorities-1.html,Index,index-1.html
+hubs-and-authorities-1.html,"About this document ...",about-this-document--1.html
